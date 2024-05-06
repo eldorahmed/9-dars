@@ -388,10 +388,63 @@ const pupils = [
 // let arr = [17, 4, 9, 16, 77, 8, 2, 3, 25];
 // function deleteElementWithIndex(arr, k) {
 //   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] != arr[k]) {
+//     if (i != k) {
 //       newArr.push(arr[i]);
 //     }
 //   }
 //   return newArr;
 // }
 // console.log(deleteElementWithIndex(arr, 0));
+
+// 7-masala
+
+// let newArr = [];
+// let count = 0;
+// let arr = [17, 4, 9, 16, 77, 8, 2, 3, 25];
+// function deleteElementWithIndex(arr, k, m) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i < k || i > m) {
+//       newArr.push(arr[i]);
+//       count++;
+//     }
+//   }
+//   return newArr;
+// }
+// console.log(deleteElementWithIndex(arr, 1, 3), count + "ta");
+
+// 8-masala
+
+// let newArr = [];
+// let arr = [17, 4, 3, 9, 16, 77, 77, 8, 2, 3, 25];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] !== arr[i + 1]) {
+//     newArr.push(arr[i]);
+//   }
+// }
+// console.log(newArr);
+
+// 9-masala
+
+// let arr = [17, 4, 3, 9, 16, 77, 77, 8, 2, 3, 25];
+// let newArr = [];
+// arr.forEach((el) => {
+//   if (arr.indexOf(el) == arr.lastIndexOf(el)) {
+//     newArr.push(el);
+//   }
+// });
+// console.log(newArr);
+
+// 10-masala
+
+// let arr = [17, 4, 3, 9, 16, 77, 3, 77, 8, 2, 3];
+// let k = 3;
+// let newArr = [];
+// function searchAllElements(arr, k) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == k) {
+//       newArr.push(i);
+//     }
+//   }
+//   return newArr;
+// }
+// console.log(searchAllElements(arr, k));
