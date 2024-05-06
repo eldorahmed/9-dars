@@ -381,3 +381,17 @@ const pupils = [
 // }
 // arr[n - 1] = j;
 // console.log(arr);
+
+// 6-Masala
+
+// let newArr = [];
+// let arr = [17, 4, 9, 16, 77, 8, 2, 3, 25];
+// function deleteElementWithIndex(arr, k) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] != arr[k]) {
+//       newArr.push(arr[i]);
+//     }
+//   }
+//   return newArr;
+// }
+// console.log(deleteElementWithIndex(arr, 0));
